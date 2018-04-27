@@ -1,3 +1,25 @@
-/*
+/*font-family: 'Montserrat', sans-serif;
+font-family: 'Lato', sans-serif;
  * Estilos de tu proyecto
  */
+
+ body {
+   background: #18bc9c;
+ }
+
+ header {
+   font-family: 'Lato', sans-serif;
+ }
+
+h1 {
+  background-color: #212529;
+  color: white;
+  height: 12vh;
+  padding-left: 18vh;
+  padding-top: 5vh;
+}
+
+nav {
+  float: right;
+    
+}

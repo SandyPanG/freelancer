@@ -78,7 +78,7 @@ p {
   background-color: white;
 }
 
-.portafolio {
+.blue {
   color: #2c3e50; /*#18bc9c, #212529;*/
   font-family: 'Montserrat', sans-serif;
   font-size: 7vh;
@@ -111,6 +111,7 @@ div.img img {
 }
 
 /*about*/
+
 .about > p {
   font-family: 'Montserrat', sans-serif;
   font-size: 7vh;
@@ -121,7 +122,8 @@ div.img img {
   color: white;
   display: inline-block;
   font-family: 'Montserrat', sans-serif;
-  font-size: 2.5vh;
+  font-size: 3vh;
+  font-weight: 500;
   height: 30vh;
   margin-left: 30vh;
   position: relative;
@@ -130,10 +132,45 @@ div.img img {
 
 .download {
   border: 2px solid white;
-  border-radius: 10%;
+  border-radius: 5px;
+  font-size: 2.5vh;
+  height: 10px;
+  margin-left: 40%;
+  margin-bottom: 10%;
+  padding: 5vh;
+  width: 25vh;
+}
+
+#down {
+  display: inline-block;
   font-family: 'Montserrat', sans-serif;
   font-size: 2.5vh;
-  height:
-  padding: 5vh;
-  width: 21vh;
+  font-weight: 100;
+  bottom: 2vh;
 }
+
+/*contact me*/
+
+.contact {
+  background-color: white;
+}
+/*footer*/
+
+.footer {
+  height: 200px;
+  display: block;
+  background: #2c3e50;
+  display: inline-flex;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+
+.copyright {
+  position: absolute;
+   padding-top: 1px;
+   background-color: #343a40;
+   text-align: center;
+   height: 100px;
+   width: 100%;
+ }

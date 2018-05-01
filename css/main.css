@@ -130,18 +130,18 @@ div.img img {
   width: 50vh;
 }
 
-.download {
+.button {
   border: 2px solid white;
-  border-radius: 5px;
+  border-radius: 10%;
   font-size: 2.5vh;
   height: 10px;
   margin-left: 40%;
   margin-bottom: 10%;
-  padding: 5vh;
+  padding: 1vh;
   width: 25vh;
 }
 
-#down {
+#boton {
   display: inline-block;
   font-family: 'Montserrat', sans-serif;
   font-size: 2.5vh;
@@ -196,4 +196,16 @@ footer {
  .copyright > p {
    font-size: 15px;
    padding-top: 5px;
+ }
+
+ .buttondos {
+   background-color: #18bc9c;
+   border: 2px solid white;
+   border-radius: 10%;
+   font-size: 2.5vh;
+   height: 10px;
+   margin-left: 45%;
+   margin-bottom: 10%;
+   padding: 1vh;
+   width: 25vh;
  }

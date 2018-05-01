@@ -75,7 +75,7 @@ p {
 }
 
 #portfolio {
-  background: white;
+  background-color: white;
 }
 
 .portafolio {
@@ -89,19 +89,21 @@ p {
 h2 > i.fa-star{
   color: #2c3e50;
 }
-/*h1 {
-  background-color: #212529;
-  color: white;
-  height: 12vh;
-  padding-left: 18vh;
-  padding-top: 5vh;
-}*/
 
-nav {
+/*portfolio*/
 
-
+.port {
+  background-color: white;
 }
 
-div .Portafolio {
-  background: white;
+.img {
+  display: inline-block;
+  height: 300px;
+  margin-left: 18vh;
+  width: 20%;
+}
+
+div.img img {
+  height: 35vh;
+  width: 45vh;
 }
